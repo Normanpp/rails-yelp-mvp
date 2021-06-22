@@ -1,0 +1,6 @@
+<h1>Restaurants#index</h1>
+<ul>
+<% @restaurants.each do |r|%>
+<li><%=r.name%>, <%= r.category %>, <%= r.address %>, <%= r.phone_number %></li>
+<% end %>
+</ul>
